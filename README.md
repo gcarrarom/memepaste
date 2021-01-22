@@ -2,6 +2,8 @@
 Alfred Workflow to paste the memes from your ~/meme folder
 ![](demo.gif)
 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/guicarraro)
+
 # Installation
 Installing this workflow works the same way you would install any other alfred workflow, but it'll need a [cli tool to manage your clipboard](#installing-impbcopy).
 Once you have installed the [Requirements](#requirements), you can just navigate to the [Releases](https://github.com/gcarrarom/memepaste/releases) page and download the latest workflow file.
