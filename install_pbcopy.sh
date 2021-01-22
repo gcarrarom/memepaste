@@ -13,3 +13,13 @@ else
     >&2 echo "There was an error downloading the impbcopy.m file!"
     exit 10
 fi
+
+echo "Checking if brew is installed..."
+if [[ ! -z "$(command -v brew)" ]]; then
+    echo "brew is installed, installing jq"
+    brew install jq
+else
+    echo "Brew is not installed, please ensure jq is installed for this workflow to work properly."
+    echo "If you can't install jq, you can still use the 'memeold' command, it should still work."
+    exit 10
+fi

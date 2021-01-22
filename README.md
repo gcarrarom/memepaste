@@ -18,18 +18,14 @@ If you want to sync the memes from my storage account - just making it easier to
 This command will fetch all the memes I have in my computer and sync it with yout `~/meme` folder. 
 # Requirements
 
-To get memepaste to work, you will need impbcopy into your /usr/local/bin/ folder. 
+To get memepaste to work, you will need a couple of softwares:
+* `impbcopy` into your /usr/local/bin/ folder. 
+* `jq` into your /usr/local/bin/ folder.
 
-## Installing impbcopy
-This is a good old tool that was created by Alec Jacobson, definitely recommend checking it out from his blog post [here](https://www.alecjacobson.com/weblog/?p=3816)
-
-You can follow his blog post to install his tool or use the [script](install_pbcopy.sh) I provide in this repo, completely up to you!
-
-To install impbcopy using my script, just run this command:
+To install `impbcopy` and `jq` using my script, just run this command:
 ```bash
 $(curl https://raw.githubusercontent.com/gcarrarom/memepaste/master/install_pbcopy.sh)
 ```
-
 Or download the script and run it locally:
 ```bash
 curl https://raw.githubusercontent.com/gcarrarom/memepaste/master/install_pbcopy.sh --output install_pbcopy.sh
@@ -37,6 +33,17 @@ chmod +x ./install_pbcopy
 ./install_pbcopy.sh
 ```
 
+if you can't use this script, please try installing them manually:
+## Installing impbcopy
+This is a good old tool that was created by Alec Jacobson, definitely recommend checking it out from his blog post [here](https://www.alecjacobson.com/weblog/?p=3816)
+
+You can follow his blog post to install his tool or use the [script](install_pbcopy.sh) I provide in this repo, completely up to you!
+
+## Installing jq
+I am not going to reinvent the wheel here, if you need to install jq, please head to its official page: 
+https://stedolan.github.io/jq/
+
+If you still can't install jq, you can still use this workflow using the keyword `memeold`. That is going to use the old behaviour of the workflow that doesn't use jq to handle the icons of the images.
 
 # FAQ
 
