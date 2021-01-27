@@ -1,6 +1,6 @@
 # memepaste
 Alfred Workflow to paste the memes from your ~/meme folder
-![](demo.gif)
+![](demov3.gif)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/guicarraro)
 
